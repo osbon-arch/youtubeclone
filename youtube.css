@@ -1,0 +1,105 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Roboto", sans-serif;
+}
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    align-items: center;
+    
+    
+    
+   
+    
+}
+#search{
+    border-radius: 2rem;
+    width: 50%;
+    text-align:center;
+    outline: none;
+    height: 2rem;
+    border-color:hsla(0, 0%, 50%, 0.13);
+   
+
+}
+#profile{
+    width: 40px;
+    border-radius:50%;
+    cursor: pointer;
+    background-color: blue;
+    
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 1.2rem;
+}
+#l1{
+    background-color: hsla(60, 4%, 44%, 0.075);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    
+    text-align: center;
+    transition-duration: 0.5s;
+}
+#l1:hover{
+    background-color: hwb(60 42% 54% / 0.527);
+
+}
+.description{
+    display: flex;
+    padding: 1rem;
+    
+}
+#channel{
+    border-radius: 50%;
+}
+.items{
+    margin-left: 1rem;
+
+}
+#v1{
+    border-radius: 1.5rem;
+    transition-duration: 0.5s;
+    margin-left: 1rem;
+    display: block;
+}
+#v1:hover{
+    border-radius:0px;
+    cursor: pointer;
+    
+}
+.container{
+    margin-left: 3.4rem;
+    margin-top: 1rem;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    flex-direction:row;
+    
+
+    
+    
+
+}
+body{
+    color: black;
+    
+    
+}
